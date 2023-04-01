@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:controller="com.example.thechat.ClientController"
+        maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="listView" layoutX="14.0" layoutY="14.0" prefHeight="331.0" prefWidth="573.0" />
+      <TextField fx:id="textField" layoutX="14.0" layoutY="354.0" prefHeight="35.0" prefWidth="465.0" />
+      <Button onAction="#buttonClick" layoutX="492.0" layoutY="354.0" mnemonicParsing="false"
+              prefHeight="35.0" prefWidth="94.0" text="Send" />
+   </children>
+</AnchorPane>
